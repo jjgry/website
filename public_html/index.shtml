@@ -1,17 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--#include virtual="inc/header.html" -->
     <title>JJ Gray</title>
-
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/699b7e2a59.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
 
   <body class="d-flex flex-column h-100">
@@ -73,7 +64,9 @@
                   Sometimes I code things. For now, the best place to see these
                   things in on my GitHub.
                 </p>
-                <a href="https://github.com/jjgry" class="btn btn-primary">My GitHub</a>
+                <a href="https://github.com/jjgry" class="btn btn-primary"
+                  >My GitHub</a
+                >
               </div>
             </div>
           </div>
@@ -82,16 +75,6 @@
     </main>
 
     <!--#include virtual="inc/footer.html" -->
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
+    <!--#include virtual="inc/end-scripts.html" -->
   </body>
 </html>
