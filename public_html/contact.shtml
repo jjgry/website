@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <!--#include virtual="inc/header.html" -->
+    <title>Contact - JJ Gray</title>
+  </head>
+
+  <body class="d-flex flex-column h-100">
+    <!--#include virtual="inc/navbar.html" -->
+
+    <main>
+      <section class="bg-dark py-4 text-light">
+        <div class="container">
+          <h1>Contact information</h1>
+        </div>
+      </section>
+
+      <section>
+        <div class="container mt-3">
+          <p>
+            If you alredy have contact information for me, feel free to use
+            that. If not, please use one of the platforms provided below.
+          </p>
+        </div>
+
+        <div class="container mt-3">
+          <div class="list-group">
+            <a
+              href="https://github.com/jjgry"
+              class="list-group-item list-group-item-action"
+            >
+              <i class="fab fa-fw fa-github mr-1"></i>
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jjgry/"
+              class="list-group-item list-group-item-action"
+            >
+              <i class="fab fa-fw fa-linkedin mr-1"></i>
+              LinkedIn
+            </a>
+            <a
+              href="mailto:contact@jjgry.com"
+              class="list-group-item list-group-item-action"
+            >
+              <i class="fas fa-fw fa-envelope mr-1"></i>
+              Email
+            </a>
+            <a
+              href="https://m.me/gray.johnjoseph"
+              class="list-group-item list-group-item-action"
+            >
+              <i class="fab fa-fw fa-facebook-messenger mr-1"></i>
+              Messenger
+            </a>
+            <a
+              href="https://instagram.com/jjgry/"
+              class="list-group-item list-group-item-action"
+            >
+              <i class="fab fa-fw fa-instagram mr-1"></i>
+              Instagram
+            </a>
+            <a
+              href="https://twitter.com/jjofthegray"
+              class="list-group-item list-group-item-action"
+            >
+              <i class="fab fa-fw fa-twitter mr-1"></i>
+              Twitter
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--#include virtual="inc/footer.html" -->
+    <!--#include virtual="inc/end-scripts.html" -->
+  </body>
+</html>
