@@ -7,6 +7,7 @@
 
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <script
       src="https://kit.fontawesome.com/699b7e2a59.js"
       crossorigin="anonymous"
@@ -15,6 +16,70 @@
 
   <body class="d-flex flex-column h-100">
     <!--#include virtual="inc/navbar.html" -->
+
+    <main>
+      <section class="bg-dark py-3 text-light">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-auto d-none d-sm-block">
+              <img src="images/pixel.png" style="max-height: 100%" />
+            </div>
+            <div class="col-sm-auto py-5">
+              <h1>Welcome to <code>jjgry.com</code>!</h1>
+              <p>This is a place for me to experiment and learn new things.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="alert alert-warning" role="alert">
+        <div class="container">
+          <i class="mr-1 fa fa-fw fa-exclamation-circle" aria-hidden="true"></i>
+          Construction work in progress. Expect many pages to be broken.
+        </div>
+      </div>
+
+      <section>
+        <div class="container">
+          <div class="card-columns">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">About</h5>
+                <p class="card-text">
+                  I'm a final year computer science student at the University of
+                  Cambridge.
+                </p>
+                <p class="card-text">
+                  This site exists because I keep telling myself I should make
+                  one. Maybe I'll put something interesting here one day?
+                </p>
+                <a href="/projects" class="btn btn-primary">Learn more</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Contact</h5>
+                <p class="card-text">
+                  If you've managed to find this page and don't already know me,
+                  I have a page full of ways to contact me
+                </p>
+                <a href="/contact" class="btn btn-primary">Stalk me</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Projects</h5>
+                <p class="card-text">
+                  Sometimes I code things. For now, the best place to see these
+                  things in on my GitHub.
+                </p>
+                <a href="https://github.com/jjgry" class="btn btn-primary">My GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!--#include virtual="inc/footer.html" -->
 
