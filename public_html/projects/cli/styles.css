@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,400i&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  margin: 10% auto auto auto;
+  width: 558px;
+  height: 80%;
+}
+@media screen and (max-width: 620px) {
+  .container {
+    width: 90%;
+  }
+}
+
+table {
+  font-size: 18px;
+  border-spacing: 0;
+  font-weight: 300;
+  table-layout: auto;
+  width: 100%;
+}
+@media screen and (max-width: 620px) {
+  table {
+    font-size: 3vw;
+  }
+}
+
+td {
+  vertical-align: top;
+  padding: 0;
+}
+
+td #input-marker {
+  width: 1%;
+  white-space: nowrap;
+  text-align: right;
+  font-weight: 400;
+  color: #ffdd00;
+}
+
+td #user-record {
+  font-weight: 400;
+  color: #ffdd00;
+}
+
+td #machine-record {
+  font-weight: 300;
+}
+
+td #editor {
+  font-weight: 400;
+}
+
+td #blank-bottom {
+  height: 10%;
+}
+
+[contenteditable] {
+  font-weight: 400;
+  outline: 0px solid transparent;
+  word-break: break-all;
+}
+
+td[data-placeholder]:not(:focus):not([data-td-placeholder-content]):before {
+  content: attr(data-placeholder);
+  font-style: italic;
+  color: #ffdd00;
+}
+
+a {
+  /* text-decoration: none; */
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  color: white;
+}
+
+a:hover {
+  color: #ffdd00;
+}
+
+/* text highlight colour */
+::selection {
+  color: black;
+  background: #ffdd00;
+}
+::-moz-selection {
+  color: black;
+  background: #ffdd00;
+}
