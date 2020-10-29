@@ -26,7 +26,7 @@
       <div class="alert alert-warning" role="alert">
         <div class="container">
           <i class="mr-1 fa fa-fw fa-exclamation-circle" aria-hidden="true"></i>
-          Construction work in progress. Expect many pages to be broken.
+          Construction work in progress! Expect things to be broken.
         </div>
       </div>
 
@@ -72,7 +72,7 @@
               <div class="card-body">
                 <h5 class="card-title">Student positions</h5>
                 <p class="card-text">
-                  I'm currently the Chair of the
+                  I'm currently the chair of the
                   <a href="https://www.srcf.net/">
                     Student-Run Computing Facility</a
                   >, a society that provides free computing facilities to
