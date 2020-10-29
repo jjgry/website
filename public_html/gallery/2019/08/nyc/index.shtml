@@ -2,6 +2,7 @@
 <html lang="en" class="h-100">
   <head>
     <!--#include virtual="/inc/header.html" -->
+    <link rel="stylesheet" href="/css/gallery-styles.css" />
     <title>Gallery - JJ Gray</title>
   </head>
 
@@ -15,6 +16,187 @@
         </div>
       </section>
 
+      <section>
+        <div class="container mt-3">
+          <div class="card-columns">
+            <div class="card">
+              <img
+                class="card-img"
+                src="./liberty.jpg"
+                alt="Statue of Liberty"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./liberty-island.jpg"
+                alt="Liberty Island"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./432pa.jpg"
+                alt="432 Park Avenue photographed from the Rockefeller Center"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./432pa-central-park.jpg"
+                alt="432 Park Avenue photographed from Central Park"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./1wtc.jpg"
+                alt="One World Trade Center"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./1wtc-up.jpg"
+                alt="One World Trade Center looking upwards"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./1wtc-mural.jpg"
+                alt="Mural under One World Trade Center"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./empire-state.jpg"
+                alt="Empire State Building photographed from the Rockefeller Center"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./guggenheim.jpg"
+                alt="Solomon R. Guggenheim Museum"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./mib.jpg"
+                alt="Ventilation Building from the Men In Black movies"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./library.jpg"
+                alt="New York Public Library behind yellow taxis"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./intrepid.jpg"
+                alt="Deck of the Intrepid Sea, Air, and Space Museum"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./intrepid-a12.jpg"
+                alt="Lockheed A-12 plane"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./nj-turnpike.jpg"
+                alt="New Jersey turnpike"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./united-757.jpg"
+                alt="United Airlines plane at airport gate"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./west-52-st.jpg"
+                alt="NYC street after rain"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./broadway-novotel.jpg"
+                alt="NYC street after rain"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./broadway.jpg"
+                alt="NYC street after rain"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./flatiron.jpg"
+                alt="Flatiron Building photographed through trees"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./coney-island.jpg"
+                alt="Rollercoaster at Coney Island"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./manhattan-bridge.jpg"
+                alt="Manhattan Bridge"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./brooklyn-bridge.jpg"
+                alt="People on the Brooklyn Bridge"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./brooklyn-bridge-1wtc.jpg"
+                alt="Brooklyn Bridge with One World Trade Center in the background"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./high-line.jpg"
+                alt="Vertical car park"
+              />
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./enterprise.jpg"
+                alt="Space Shuttle Enterprise"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--#include virtual="/inc/footer.html" -->
