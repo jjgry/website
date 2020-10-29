@@ -44,7 +44,6 @@
                   This site exists because I keep telling myself I should make
                   one. Maybe I'll put something interesting here one day?
                 </p>
-                <a href="/projects" class="btn btn-primary">Learn more</a>
               </div>
             </div>
             <div class="card">
@@ -54,7 +53,7 @@
                   If you've managed to find this page and don't already know me,
                   I have a page full of ways to contact me
                 </p>
-                <a href="/contact" class="btn btn-primary">Stalk me</a>
+                <a href="/contact" class="btn btn-outline-primary">Stalk me</a>
               </div>
             </div>
             <div class="card">
@@ -64,9 +63,29 @@
                   Sometimes I code things. For now, the best place to see these
                   things in on my GitHub.
                 </p>
-                <a href="https://github.com/jjgry" class="btn btn-primary"
+                <a
+                  href="https://github.com/jjgry"
+                  class="btn btn-outline-primary"
                   >My GitHub</a
                 >
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Student positions</h5>
+                <p class="card-text">
+                  I'm currently the Chair of the
+                  <a href="https://www.srcf.net/">
+                    Student-Run Computing Facility</a
+                  >, a society that provides free computing facilities to
+                  members of the university.
+                </p>
+                <p class="card-text">
+                  I'm also the junior treasurer of the
+                  <a href="http://wilkes.soc.srcf.net/">Wilkes Society</a>, a
+                  collegiate society that hosts social events for computer
+                  science students.
+                </p>
               </div>
             </div>
           </div>
