@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <!--#include virtual="/inc/header.html" -->
+    <title>Gallery - JJ Gray</title>
+  </head>
+
+  <body class="d-flex flex-column h-100">
+    <!--#include virtual="/inc/navbar.html" -->
+
+    <main>
+      <section class="bg-dark py-4 text-light">
+        <div class="container">
+          <h1>Gallery</h1>
+        </div>
+      </section>
+
+      <section>
+        <div class="container mt-3">
+          <div class="card-columns">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">NYC 2019</h5>
+                <p class="card-text">
+                  In August 2019 I took a family trip to New York City. This was
+                  my first time taking photos on film.
+                </p>
+                <p class="card-text">
+                  Please excuse the lack of editing/colour-correction. One day I
+                  will fix this.
+                </p>
+                <a href="/gallery/2019/08/nyc" class="btn btn-outline-primary">
+                  Take a look
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--#include virtual="/inc/footer.html" -->
+    <!--#include virtual="/inc/end-scripts.html" -->
+  </body>
+</html>

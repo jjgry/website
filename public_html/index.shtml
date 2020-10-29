@@ -46,6 +46,7 @@
                 </p>
               </div>
             </div>
+
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Contact</h5>
@@ -56,6 +57,7 @@
                 <a href="/contact" class="btn btn-outline-primary">Stalk me</a>
               </div>
             </div>
+
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Projects</h5>
@@ -68,6 +70,7 @@
                 </a>
               </div>
             </div>
+
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Student positions</h5>
@@ -84,6 +87,18 @@
                   collegiate society that hosts social events for computer
                   science students.
                 </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Photography</h5>
+                <p class="card-text">
+                  I own a couple old 35mm film cameras that I use on-and-off to take photos
+                </p>
+                <a href="/gallery" class="btn btn-outline-primary">
+                  View the gallery
+                </a>
               </div>
             </div>
           </div>
