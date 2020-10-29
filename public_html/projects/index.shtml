@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <!--#include virtual="../inc/header.html" -->
+    <!--#include virtual="/inc/header.html" -->
     <title>Projects - JJ Gray</title>
   </head>
 
   <body class="d-flex flex-column h-100">
-    <!--#include virtual="../inc/navbar.html" -->
+    <!--#include virtual="/inc/navbar.html" -->
 
     <main>
       <section class="bg-dark py-4 text-light">
@@ -27,13 +27,14 @@
                 <span class="badge badge-pill badge-dark my-2">SQL</span>
                 <p class="card-text">
                   Oscar was a group project as part of my second year of
-                  University.
+                  university.
                 </p>
                 <p class="card-text">
                   The project is a proof-of-concept that we could send reminders
-                  to patients and then use Apache's OpenNLP to process patient
-                  queries like rescheduling an appointment and then generate
-                  responses to them.
+                  to patients and then use
+                  <a href="https://opennlp.apache.org/">Apache's OpenNLP</a> to
+                  process patient queries like rescheduling an appointment and
+                  then generate responses to them.
                 </p>
                 <a
                   href="https://github.com/jjgry/oscar"
@@ -75,7 +76,7 @@
       </section>
     </main>
 
-    <!--#include virtual="../inc/footer.html" -->
-    <!--#include virtual="../inc/end-scripts.html" -->
+    <!--#include virtual="/inc/footer.html" -->
+    <!--#include virtual="/inc/end-scripts.html" -->
   </body>
 </html>

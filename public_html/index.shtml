@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <!--#include virtual="inc/header.html" -->
+    <!--#include virtual="/inc/header.html" -->
     <title>JJ Gray</title>
   </head>
 
   <body class="d-flex flex-column h-100">
-    <!--#include virtual="inc/navbar.html" -->
+    <!--#include virtual="/inc/navbar.html" -->
 
     <main>
       <section class="bg-dark py-3 text-light">
@@ -91,7 +91,7 @@
       </section>
     </main>
 
-    <!--#include virtual="inc/footer.html" -->
-    <!--#include virtual="inc/end-scripts.html" -->
+    <!--#include virtual="/inc/footer.html" -->
+    <!--#include virtual="/inc/end-scripts.html" -->
   </body>
 </html>
