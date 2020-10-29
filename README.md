@@ -4,6 +4,7 @@
   * [Built with](#built-with)
 * [Getting started](#getting-started)
 * [Roadmap](#roadmap)
+* [License](#license)
 
 ## About
 
@@ -11,18 +12,20 @@ This is a repository for my personal website hosted at https://www.jjgry.com
 
 ### Built With
 
-* [Bootstrap](https://getbootstrap.com)
 * [Apache](https://httpd.apache.org/)
+* [Bootstrap](https://getbootstrap.com)
+* [Font Awesome](https://fontawesome.com/)
+* [jQuery](https://jquery.com/)
 
 ## Getting started
 
-The website is mostly plain HTML but I utilise Apache's SSI to load the header and footer to avoid code duplication. 
+The website is mostly plain HTML but I utilise Apache's SSI to load the header and footer to avoid code duplication.
 
-No special tools are required to edit the codebase but you will need to an Apache HTTP server to preview any changes.
+No special tools are required to edit the codebase but you will need an Apache HTTP server to preview any changes.
 
 ## Roadmap
 
-See the [open issues](https://github.com/jjgry/website-static/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/jjgry/website/issues) for a list of proposed features (and known issues).
 
 ## License
 
