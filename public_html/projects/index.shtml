@@ -14,6 +14,65 @@
           <h1>Projects</h1>
         </div>
       </section>
+
+      <section>
+        <div class="container mt-3">
+          <div class="card-columns">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title mb-0">
+                  Oscar: Automated GP Appointment Reminders
+                </h5>
+                <span class="badge badge-pill badge-dark my-2">Java</span>
+                <span class="badge badge-pill badge-dark my-2">SQL</span>
+                <p class="card-text">
+                  Oscar was a group project as part of my second year of
+                  University.
+                </p>
+                <p class="card-text">
+                  The project is a proof-of-concept that we could send reminders
+                  to patients and then use Apache's OpenNLP to process patient
+                  queries like rescheduling an appointment and then generate
+                  responses to them.
+                </p>
+                <a
+                  href="https://github.com/jjgry/oscar"
+                  class="btn btn-outline-primary"
+                >
+                  Our GitHub repo
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="/images/cli.png"
+                class="card-img-top"
+                alt="Screenshot of command line interface"
+              />
+              <div class="card-body">
+                <h5 class="card-title mb-0">JavaScript CLI</h5>
+                <span class="badge badge-pill badge-dark my-2">JavaScript</span>
+                <p class="card-text">
+                  My old website was a basic CLI written using some HTML tables
+                  and JQuery.
+                </p>
+                <p class="card-text">
+                  Functionality is limited to displaying text but there is a
+                  little bit of JS for parsing inputs from the user.
+                </p>
+                <p class="card-text">
+                  I still provide access to it as it is kind of fun, but beware
+                  that the information is out-of-date.
+                </p>
+                <a href="/projects/cli" class="btn btn-outline-primary">
+                  Check it out
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--#include virtual="../inc/footer.html" -->

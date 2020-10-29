@@ -60,14 +60,12 @@
               <div class="card-body">
                 <h5 class="card-title">Projects</h5>
                 <p class="card-text">
-                  Sometimes I code things. For now, the best place to see these
-                  things in on my GitHub.
+                  Sometimes I code things. Not everything is well documented,
+                  but I'm working on adding it all to this site.
                 </p>
-                <a
-                  href="https://github.com/jjgry"
-                  class="btn btn-outline-primary"
-                  >My GitHub</a
-                >
+                <a href="/projects" class="btn btn-outline-primary">
+                  Projects page
+                </a>
               </div>
             </div>
             <div class="card">
