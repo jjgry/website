@@ -19,6 +19,11 @@
         <div class="container mt-3">
           <div class="card-columns">
             <div class="card">
+              <img
+                class="card-img-top"
+                src="./2019/08/nyc/432pa-central-park.jpg"
+                alt="432 Park Avenue photographed from Central Park"
+              />
               <div class="card-body">
                 <h5 class="card-title">NYC 2019</h5>
                 <p class="card-text">
@@ -30,6 +35,23 @@
                   will fix this.
                 </p>
                 <a href="/gallery/2019/08/nyc" class="btn btn-outline-primary">
+                  Take a look
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./2020/01/cambridge/genomics.jpg"
+                alt="Red brick building at sunset"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Winter in Cambridge 2020</h5>
+                <p class="card-text">
+                  A collection of photos from the end of 2019 and beginning of 2020.
+                </p>
+                <a href="/gallery/2020/01/cambridge" class="btn btn-outline-primary">
                   Take a look
                 </a>
               </div>
