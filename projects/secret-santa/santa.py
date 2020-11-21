@@ -32,7 +32,7 @@ def make_pairs(names):
 def random_url(length):
     return ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(length))
 
-def create_webpages(pairs):
+def create_webpages(group_name, pairs):
     with open('./template.shtml') as template:
         text = template.read()
 
@@ -40,13 +40,14 @@ def create_webpages(pairs):
         if giver == 'index':
             raise Exception("'{}' is not an acceptable name".format(giver))
         giver_safe = urllib.parse.quote(giver).lower()
-        new_filepath = './result/{}-{}.shtml'.format(giver_safe, random_url(20))
+        new_filepath = './{}/{}-{}.shtml'.format(group_name, giver_safe, random_url(20))
 
         modified_text = text.replace('RECEIVER', receiver)
 
         with open(new_filepath, 'w') as new_file:
             new_file.write(modified_text)
 
+group_name = 'girl-gang'
 names = ['Balint', 'Benjamin', 'Izzy', 'JJ', 'Sid']
 pairs = make_pairs(names)
-create_webpages(pairs)
+create_webpages(group_name, pairs)
