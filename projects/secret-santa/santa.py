@@ -1,4 +1,5 @@
 import random
+import string
 import urllib.parse
 
 
@@ -28,6 +29,8 @@ def make_pairs(names):
             return make_pairs(names)
     return pairs
 
+def random_url(length):
+    return ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(length))
 
 def create_webpages(pairs):
     with open('./template.shtml') as template:
@@ -37,7 +40,7 @@ def create_webpages(pairs):
         if giver == 'index':
             raise Exception("'{}' is not an acceptable name".format(giver))
         giver_safe = urllib.parse.quote(giver).lower()
-        new_filepath = './{}.shtml'.format(giver_safe)
+        new_filepath = './result/{}-{}.shtml'.format(giver_safe, random_url(20))
 
         modified_text = text.replace('RECEIVER', receiver)
 
