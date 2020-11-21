@@ -23,6 +23,7 @@ def make_pairs(names):
 
         if is_successful:
             pairs.append((giver, receiver))
+            receivers.remove(receiver)
         else:
             return make_pairs(names)
     return pairs
