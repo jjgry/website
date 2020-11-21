@@ -11,7 +11,7 @@
     <main>
       <section class="bg-dark py-4 text-light">
         <div class="container">
-          <h1>Girl Gang Secret Santa 2020</h1>
+          <h1>GROUP_NAME Secret Santa</h1>
         </div>
       </section>
 
