@@ -2,9 +2,8 @@ Options +Includes
 AddType text/html .shtml
 AddOutputFilter INCLUDES .shtml
 
-RewriteEngine On 
-RewriteCond %{HTTPS} off 
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+DirectoryIndex index.html index.shtml
 
+RewriteEngine On
 RewriteCond %{HTTP_HOST} ^jjgry.com [NC]
 RewriteRule ^(.*)$ http://www.jjgry.com/$1 [L,R=301]
