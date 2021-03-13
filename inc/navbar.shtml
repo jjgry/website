@@ -1,7 +1,7 @@
 <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <span class="text-danger">jjgry.com</span>:<!--#echo var="navbar-path" -->#
+      <span class="text-danger">jjgry.com</span>:<!--#echo var="navbar-path" -->$
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
