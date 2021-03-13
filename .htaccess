@@ -3,7 +3,3 @@ AddType text/html .shtml
 AddOutputFilter INCLUDES .shtml
 
 DirectoryIndex index.html index.shtml
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^jjgry.com [NC]
-RewriteRule ^(.*)$ http://www.jjgry.com/$1 [L,R=301]
