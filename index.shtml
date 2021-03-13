@@ -1,12 +1,13 @@
+<!--#set var="navbar-path" value="~" -->
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
     <!--#include virtual="/inc/header.html" -->
     <title>JJ Gray</title>
   </head>
-
+  
   <body class="d-flex flex-column h-100">
-    <!--#include virtual="/inc/navbar.html" -->
+    <!--#include virtual="/inc/navbar.shtml" -->
 
     <main>
       <section class="bg-dark py-3 text-light">
