@@ -1,12 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
   padding-top: 3.5rem;
+  font-family: 'Roboto Mono', monospace !important;
 }
 
 main {
   padding-top: 4.5rem;
   margin-top: -4.5rem;
-}
-
-.logo {
-  height: 2rem;
 }
