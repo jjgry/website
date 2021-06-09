@@ -17,112 +17,126 @@
 
       <section>
         <div class="container mt-3">
-          <div class="card-columns">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title mb-0">
-                  Machine learning to select optimal question sequences
-                </h5>
-                <span class="badge badge-pill badge-dark my-2">Python</span>
-                <span class="badge badge-pill badge-info my-2">Machine learning</span>
-                <p class="card-text">My final year project is titled:</p>
-                <blockquote class="blockquote">
-                  <q>
-                    Using Multi-Armed Bandits to Select Optimal Question
-                    Sequences for Students in an Online Education Platform
-                  </q>
-                </blockquote>
-                <p class="card-text">
-                  The project aims to train machine learning models using a
-                  multi-armed bandit strategy to complete task 4 of the
-                  <a href="https://competitions.codalab.org/competitions/25449">
-                    NeurIPS 2020 Education Challenge
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title mb-0">
+                    Machine learning to select optimal question sequences
+                  </h5>
+                  <span class="badge badge-pill badge-dark my-2">Python</span>
+                  <span class="badge badge-pill badge-info my-2"
+                    >Machine learning</span
+                  >
+                  <p class="card-text">My final year project is titled:</p>
+                  <blockquote class="blockquote">
+                    <q>
+                      Using Multi-Armed Bandits to Select Optimal Question
+                      Sequences for Students in an Online Education Platform
+                    </q>
+                  </blockquote>
+                  <p class="card-text">
+                    The project aims to train machine learning models using a
+                    multi-armed bandit strategy to complete task 4 of the
+                    <a
+                      href="https://competitions.codalab.org/competitions/25449"
+                    >
+                      NeurIPS 2020 Education Challenge
+                    </a>
+                  </p>
+                  <p>
+                    The task is to give new students a sequence of 10 questions,
+                    observing their responses after every question, and then
+                    predict their performance (pass/fail) on the remainder of
+                    questions they attempted.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title mb-0">
+                    Oscar: NLP to schedule doctor's appointments
+                  </h5>
+                  <span class="badge badge-pill badge-dark my-2">Java</span>
+                  <span class="badge badge-pill badge-dark my-2">SQL</span>
+                  <span class="badge badge-pill badge-info my-2">NLP</span>
+                  <p class="card-text">
+                    Oscar was a group project as part of my second year of
+                    university.
+                  </p>
+                  <p class="card-text">
+                    The project is a proof-of-concept that we could send
+                    reminders to patients and then use
+                    <a href="https://opennlp.apache.org/">Apache's OpenNLP</a>
+                    to process patient queries like rescheduling an appointment
+                    and then generate responses to them.
+                  </p>
+                  <a
+                    href="https://github.com/jjgry/oscar"
+                    class="btn btn-outline-primary"
+                  >
+                    Our GitHub repo
                   </a>
-                </p>
-                <p>
-                  The task is to give new students a sequence of 10 questions,
-                  observing their responses after every question, and then
-                  predict their performance (pass/fail) on the remainder of
-                  questions they attempted.
-                </p>
+                </div>
               </div>
             </div>
 
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title mb-0">
-                  Oscar: NLP to schedule doctor's appointments
-                </h5>
-                <span class="badge badge-pill badge-dark my-2">Java</span>
-                <span class="badge badge-pill badge-dark my-2">SQL</span>
-                <span class="badge badge-pill badge-info my-2">NLP</span>
-                <p class="card-text">
-                  Oscar was a group project as part of my second year of
-                  university.
-                </p>
-                <p class="card-text">
-                  The project is a proof-of-concept that we could send reminders
-                  to patients and then use
-                  <a href="https://opennlp.apache.org/">Apache's OpenNLP</a> to
-                  process patient queries like rescheduling an appointment and
-                  then generate responses to them.
-                </p>
-                <a
-                  href="https://github.com/jjgry/oscar"
-                  class="btn btn-outline-primary"
-                >
-                  Our GitHub repo
-                </a>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="/images/cli.png"
+                  class="card-img-top"
+                  alt="Screenshot of command line interface"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-0">JavaScript CLI</h5>
+                  <span class="badge badge-pill badge-dark my-2"
+                    >JavaScript</span
+                  >
+                  <p class="card-text">
+                    My old website was a basic CLI written using some HTML
+                    tables and JQuery.
+                  </p>
+                  <p class="card-text">
+                    Functionality is limited to displaying text but there is a
+                    little bit of JS for parsing inputs from the user.
+                  </p>
+                  <p class="card-text">
+                    I still provide access to it as it is kind of fun, but
+                    beware that the information is out-of-date.
+                  </p>
+                  <a href="/projects/cli" class="btn btn-outline-primary">
+                    Check it out
+                  </a>
+                </div>
               </div>
             </div>
 
-            <div class="card">
-              <img
-                src="/images/cli.png"
-                class="card-img-top"
-                alt="Screenshot of command line interface"
-              />
-              <div class="card-body">
-                <h5 class="card-title mb-0">JavaScript CLI</h5>
-                <span class="badge badge-pill badge-dark my-2">JavaScript</span>
-                <p class="card-text">
-                  My old website was a basic CLI written using some HTML tables
-                  and JQuery.
-                </p>
-                <p class="card-text">
-                  Functionality is limited to displaying text but there is a
-                  little bit of JS for parsing inputs from the user.
-                </p>
-                <p class="card-text">
-                  I still provide access to it as it is kind of fun, but beware
-                  that the information is out-of-date.
-                </p>
-                <a href="/projects/cli" class="btn btn-outline-primary">
-                  Check it out
-                </a>
-              </div>
-            </div>
-
-            <div class="card">
-              <img
-                src="/images/space-invaders.gif"
-                class="card-img-top"
-                alt="Gameplay of space invaders"
-              />
-              <div class="card-body">
-                <h5 class="card-title mb-0">Replicating arcade games</h5>
-                <span class="badge badge-pill badge-dark my-2">Python</span>
-                <p class="card-text">
-                  In late 2019, I began replicating some old arcade games (Pong,
-                  Space Invaders) using PyGame.
-                </p>
-                <p class="card-text">
-                  I've made some progress with Pacman and Conway's Game of Life,
-                  but my work on these is currently on an ad hoc basis.
-                </p>
-                <a href="/projects/cli" class="btn btn-outline-primary">
-                  Read more on GitHub
-                </a>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="/images/space-invaders.gif"
+                  class="card-img-top"
+                  alt="Gameplay of space invaders"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-0">Replicating arcade games</h5>
+                  <span class="badge badge-pill badge-dark my-2">Python</span>
+                  <p class="card-text">
+                    In late 2019, I began replicating some old arcade games
+                    (Pong, Space Invaders) using PyGame.
+                  </p>
+                  <p class="card-text">
+                    I've made some progress with Pacman and Conway's Game of
+                    Life, but my work on these is currently on an ad hoc basis.
+                  </p>
+                  <a href="/projects/cli" class="btn btn-outline-primary">
+                    Read more on GitHub
+                  </a>
+                </div>
               </div>
             </div>
           </div>
