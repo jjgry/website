@@ -3,3 +3,5 @@ AddType text/html .shtml
 AddOutputFilter INCLUDES .shtml
 
 DirectoryIndex index.html index.shtml
+
+ErrorDocument 404 /404.shtml

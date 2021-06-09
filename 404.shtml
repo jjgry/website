@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <!--#include virtual="/inc/header.html" -->
+    <title>Page not found - JJ Gray</title>
+  </head>
+
+  <body class="d-flex flex-column h-100">
+    <div class="container-fluid h-100 align-items-center">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-sm-auto py-5">
+          <h1 class="mb-4">Page not found</h1>
+          <p>The requested file could not be found on this server.</p>
+          <p>You can continue to <a href="../">browse from the homepage</a></p>
+          <code>Status code: 404</code>
+        </div>
+      </div>
+    </div>
+
+    <!--#include virtual="/inc/footer.html" -->
+    <!--#include virtual="/inc/end-scripts.html" -->
+  </body>
+</html>
