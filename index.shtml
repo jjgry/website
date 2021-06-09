@@ -6,105 +6,14 @@
   </head>
 
   <body class="d-flex flex-column h-100">
-    <!--#include virtual="/inc/navbar.html" -->
-
-    <main>
-      <section class="bg-dark py-3 text-light">
-        <div class="container">
-          <div class="row justify-content-center align-items-center">
-            <div class="col-md-auto d-none d-sm-block">
-              <img src="images/pixel.png" style="max-height: 100%" />
-            </div>
-            <div class="col-sm-auto py-5">
-              <h1>Welcome to <code>jjgry.com</code>!</h1>
-              <p>This is a place for me to experiment and learn new things.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="alert alert-warning" role="alert">
-        <div class="container">
-          <i class="mr-1 fa fa-fw fa-exclamation-circle" aria-hidden="true"></i>
-          Construction work in progress! Expect things to be broken.
+    <div class="container-fluid h-100 align-items-center">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-sm-auto py-5">
+          <h1><code>www.jjgry.com</code></h1>
+          <p>Work is in progress.</p>
         </div>
       </div>
-
-      <section>
-        <div class="container">
-          <div class="card-columns">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">About</h5>
-                <p class="card-text">
-                  I'm a final year computer science student at the University of
-                  Cambridge.
-                </p>
-                <p class="card-text">
-                  This site exists because I keep telling myself I should make
-                  one. Maybe I'll put something interesting here one day?
-                </p>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Contact</h5>
-                <p class="card-text">
-                  If you've managed to find this page and don't already know me,
-                  I have a page full of ways to contact me
-                </p>
-                <a href="/contact" class="btn btn-outline-primary">Stalk me</a>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Projects</h5>
-                <p class="card-text">
-                  Sometimes I code things. Not everything is well documented,
-                  but I'm working on adding it all to this site.
-                </p>
-                <a href="/projects" class="btn btn-outline-primary">
-                  Projects page
-                </a>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Student positions</h5>
-                <p class="card-text">
-                  I'm currently the chair of the
-                  <a href="https://www.srcf.net/">
-                    Student-Run Computing Facility</a
-                  >, a society that provides free computing facilities to
-                  members of the university.
-                </p>
-                <p class="card-text">
-                  I'm also the junior treasurer of the
-                  <a href="http://wilkes.soc.srcf.net/">Wilkes Society</a>, a
-                  collegiate society that hosts social events for computer
-                  science students.
-                </p>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Photography</h5>
-                <p class="card-text">
-                  I own a couple old 35mm film cameras that I use on-and-off to take photos
-                </p>
-                <a href="/gallery" class="btn btn-outline-primary">
-                  View the gallery
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    </div>
 
     <!--#include virtual="/inc/footer.html" -->
     <!--#include virtual="/inc/end-scripts.html" -->
