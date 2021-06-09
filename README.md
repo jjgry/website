@@ -1,10 +1,10 @@
 # jjgry.com
 
-* [About](#about)
-  * [Built with](#built-with)
-* [Getting started](#getting-started)
-* [Roadmap](#roadmap)
-* [License](#license)
+- [About](#about)
+  - [Built with](#built-with)
+- [Getting started](#getting-started)
+- [Roadmap](#roadmap)
+- [License](#license)
 
 ## About
 
@@ -12,10 +12,9 @@ This is a repository for my personal website hosted at https://www.jjgry.com
 
 ### Built With
 
-* [Apache](https://httpd.apache.org/)
-* [Bootstrap](https://getbootstrap.com)
-* [Font Awesome](https://fontawesome.com/)
-* [jQuery](https://jquery.com/)
+- [Apache](https://httpd.apache.org/)
+- [Bootstrap](https://getbootstrap.com)
+- [Font Awesome](https://fontawesome.com/)
 
 ## Getting started
 
